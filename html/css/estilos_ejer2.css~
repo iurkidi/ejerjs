@@ -1,0 +1,262 @@
+/* HOJA ESTILOS PRACTICA*/
+
+/* CABECERA - BODY */
+
+
+html{
+	margin:0;
+	padding: 0;
+	width: 100%;
+	height:100%;
+/*border-color: #000000;
+	border-top: 5px solid;
+	border-right: 1px solid;
+	border-bottom: 1px solid;*/
+}
+
+#cabecera{	
+	margin:0;
+	padding: 0;
+	width: 100%;
+	position: relative;
+	height: 10%;
+	overflow: auto;
+	display: block;
+	/*border-color: #000000;
+	border-top: 5px solid;
+	border-right: 1px solid;
+	border-bottom: 1px solid;*/
+	/*clear: both;*/
+}
+
+
+
+body{	
+	width: 100%;
+	height:100%;
+	margin:0;
+	padding: 0;
+	/*clear: both;*/
+	/*background-color: #FFFFFF;*/
+	background-color: fuchsia;
+	color: #000000;
+	FONT-FAMILY: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size: 10pt;
+	font-weight: normal;
+	border-color: #000000;
+}
+
+#contenFormularios{
+	padding: 0px;
+	margin: 0px;
+	position: relative;
+	/*clear: both;
+	float: left;*/
+	width: 100%;
+	height: 100%;
+	background-color: #F2F2F2;	
+	/*border-top: 3px none;
+	border-right: 1px none;
+	border-bottom: 1px solid;
+	border-color: #000000;
+	border-left: 3px solid #FFFFFF;*/
+}
+
+.menuopc{
+	position: relative;
+	background-color: #0000FF;
+	color: #FFFFFF;
+	/*border-bottom: 3px solid;
+	border-top: 2px solid;
+	border-color: #FFFF00;*/
+	float:left;
+	width: 25%;
+	height: 100%;
+}
+
+.cuerpo{
+	position: relative;
+	background-color: #FF0000;
+	color: #FFFFFF;	
+	float:left;
+	/*clear: left;*/
+	width: 75%;
+	height: 100%;
+	/*border-bottom: 3px solid;
+	border-top: 2px solid;
+	border-color: #99FF33;*/
+}
+
+label {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 8pt;
+	font-weight: normal;
+	color: #333333;
+	text-decoration: none;
+	text-align: left;
+	background-color: ##F2F2F2;
+	margin: 0px 0px 0px 5px;
+	padding: 0px;
+	height: 15px;
+	width: 140px;
+	clear: none;
+	float: left;
+}
+
+.LineaFormulario{
+	margin: 2px 0px;
+	padding: 0px;
+	clear: both;
+	float: left;
+	width: 98%;
+	border: 0px none;	
+}
+
+
+.LineaFormulario div{
+	float:left;
+	clear:none;	
+}
+
+.LineaFormulario p{
+	color:#000000;
+	font-size:10px;
+	/*margin:1.5em 0em 0.3em 0.3em;*/
+}
+
+
+/* ESTILOS ANCHOS Y ALTOS */
+.ancho10por{
+	width: 10%;
+}
+
+.ancho15por{
+	width: 15%;
+}
+
+.ancho20por{
+	width: 20%;
+}
+
+.ancho25por{
+	width: 25%;
+}
+
+.ancho30por{
+	width: 30%;
+}
+
+.ancho40por{
+	width: 40%;
+}
+
+.ancho50por{
+	width: 50%;
+}
+
+.ancho60por{
+	width: 60%;
+}
+
+.ancho70por{
+	width: 70%;
+}
+
+.ancho75por{
+	width: 75%;	
+}
+
+
+.ancho80por{
+	width: 80%;
+}
+
+.ancho90por{
+	width: 90%;
+}
+
+.ancho100por{
+	width: 100%;
+}
+
+.ancho40px{
+	width: 100px;
+}
+
+.alto2por{
+	height: 2%;
+}
+
+.alto10por{
+	height: 10%;
+}
+
+
+/* DESPUES DE LOS ALTOS Y ANCHOS EL RESTO*/
+
+/*.borde{
+	border-width: 7px !important;
+	border-style: solid !important;
+	border-color: #FFFFFF !important;
+}*/
+
+.centrado{
+	align: center;
+}
+
+.cursiva{
+	font-style: italic;
+}
+
+.derecha{
+	float:right;
+}
+
+.fondoverde{
+	background-color: #136825;
+	color: #FFFFFF;
+}
+
+.imagencentral{
+	width:100px;
+	height:100px;
+}
+
+.izquierda{
+	float:left;
+}
+
+.letralogo{
+	FONT-FAMILY: Comic Sans, Comic Sans MS, cursive !important;
+	/* font-style: italic !important;
+	Verdana, Geneva, Arial, , sans-serif;*/
+}
+
+
+.listasindisco{
+	list-style-type:none;
+}
+
+.listadisco{
+	list-style-type:disc;
+}
+
+.negrita{
+	font-weight: bold;
+}
+
+.textoblanco{
+	color: #FFFFFF;
+}
+
+.textocentrado{
+	text-align: center;	
+}
+
+.textoizq{
+	text-align: left;	
+}
+
+.separarIzq15{margin-left:15px;}
+.separarIzq20{margin-left:20px;}
+.separarIzq250{margin-left:250px;}
